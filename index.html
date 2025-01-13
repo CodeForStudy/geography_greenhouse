@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klimawandel</title>
+    <!-- CSS Dateien einbinden -->
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/names.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button class="navbar-toggle">☰ Menü</button>
+    <nav class="navbar">
+        <h1>Gliederung</h1>
+        <div class="section">
+            <table>
+                <tr onclick="scrollToSection('card1')">
+                    <td class="number">1.</td>
+                    <td class="text">Definition</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <table>
+                <tr onclick="scrollToSection('card2')">
+                    <td class="number">2.</td>
+                    <td class="text">Natürlicher und anthropogener Treibhauseffekt</td>
+                </tr>
+                <tr onclick="scrollToSection('card2.1')">
+                    <td class="sub-number">2.1.</td>
+                    <td class="sub-text">Natürlicher Treibhauseffekt</td>
+                </tr>
+                <tr onclick="scrollToSection('card2.2')">
+                    <td class="sub-number">2.2.</td>
+                    <td class="sub-text">Anthropogener Treibhauseffekt</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <table>
+                <tr onclick="scrollToSection('card3')">
+                    <td class="number">3.</td>
+                    <td class="text">Treibhausgase</td>
+                </tr>
+                <tr onclick="scrollToSection('card3.1')">
+                    <td class="sub-number">3.1.</td>
+                    <td class="sub-text">Entstehung</td>
+                </tr>
+                <tr onclick="scrollToSection('card3.2')">
+                    <td class="sub-number">3.2.</td>
+                    <td class="sub-text">Wirkungen</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <table>
+                <tr onclick="scrollToSection('card4')">
+                    <td class="number">4.</td>
+                    <td class="text">Auswirkungen des Treibhauseffekts</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <table>
+                <tr onclick="scrollToSection('card5')">
+                    <td class="number">5.</td>
+                    <td class="text">Maßnahmen zur Vermeidung</td>
+                </tr>
+                <tr onclick="scrollToSection('card5.1')">
+                    <td class="sub-number">5.1.</td>
+                    <td class="sub-text">Erneuerbare Energien</td>
+                </tr>
+                <tr onclick="scrollToSection('card5.2')">
+                    <td class="sub-number">5.2.</td>
+                    <td class="sub-text">Pariser Klimaabkommen</td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+    <div class="main">
+        <!-- Titel mit Bild -->
+        <div class="title-div">
+            <h1>Treibhauseffekt</h1>
+        </div>
+
+        <!-- Definition -->
+        <div class="card heading-div" id="card1">
+            <h2>1. Definition</h2>
+        </div>
+        
+        <div class="card definition-div">
+            <h3>Der Treibhauseffekt</h3>
+            <div class="definition-container">
+                <div>
+                <p>
+                    Der <b>Treibhauseffekt</b> ist ein <b>natürlicher Prozess</b>, bei dem bestimmte Gase in der <b>Erdatmosphäre</b> (z. B. <b>Kohlendioxid</b>, <b>Methan</b> und <b>Wasserdampf</b>) Wärme von der <b>Erdoberfläche</b> einfangen und wieder abstrahlen. Dies führt dazu, dass die Erde warm genug bleibt, um Leben zu ermöglichen.
+                </p>
+                <p>
+                    Der durch <b>menschliche Aktivitäten</b> wie die <b>Verbrennung fossiler Brennstoffe</b> verstärkte Treibhauseffekt erhöht die Konzentration dieser Gase und führt zur <b>globalen Erwärmung</b>.
+                </p>
+                </div>
+            </div>
+            <img src="assets/imgs/treibhauseffekt.png" alt="Treibhauseffekt" class="definition-img">
+        </div>
+        
+        
+        <!-- Ursachen des Klimawandels -->
+        <div class="card heading-div" id="card2">
+            <h2>2. Ursachen des Klimawandels</h2>
+        </div>
+        
+        <div class="card content-div" id="card2.1">
+            <h3>2.1 Natürlicher Treibhauseffekt</h3>
+            <p>
+                Der natürliche Treibhauseffekt wird durch natürliche Treibhausgase verursacht, die aus natürlichen Vorkommen stammen und in einem Gleichgewicht stehen. Zu den natürlichen Treibhausgasen gehören Methan, Ozon, Wasserdampf, Lachgas und das bekannteste, Kohlendioxid. 
+            </p>
+            <p>
+                Der Treibhauseffekt funktioniert so: Sonnenstrahlen treffen auf die Erdoberfläche und werden zurück in die Atmosphäre reflektiert. Die Treibhausgase halten einen Teil der Strahlen zurück und werfen sie erneut auf die Erdoberfläche, was zu einer zusätzlichen Erwärmung führt. Ohne den natürlichen Treibhauseffekt läge die globale Durchschnittstemperatur bei etwa -18 °C. Mit dem natürlichen Treibhauseffekt beträgt sie angenehme 15 °C.
+            </p>
+            <p>
+                Quelle: <a href="https://energiemarie.de/nachhaltigkeit/co2/treibhauseffekt#:~:text=Dabei%20gibt%20es%20natürliche%20Treibhausgase%20und%20anthropogene%20Treibhausgase%2C,ebenfalls%20fluorierte%20Treibhausgase%2C%20die%20sogar%20gezielt%20produziert%20werden." target="_blank">Energiemarie</a>
+            </p>
+        </div>
+        
+        <div class="card content-div" id="card2.2">
+            <h3>2.2 Anthropogener Treibhauseffekt</h3>
+            <p>
+                Der anthropogene Treibhauseffekt entsteht durch den Menschen, der immer mehr Treibhausgase in die Atmosphäre abgibt. Dies geschieht hauptsächlich durch das Verbrennen kohlenstoffhaltiger Materialien. 
+            </p>
+            <p>
+                Der anthropogene Treibhauseffekt verstärkt die Wirkung des natürlichen Treibhauseffekts und führt zu einer höheren globalen Durchschnittstemperatur. Der Mensch erzeugt durch Verkehr und Industrie den Großteil der Treibhausgase. Der anthropogene Treibhauseffekt hat bereits die globale Durchschnittstemperatur um etwa +1 °C erhöht.
+            </p>
+            <p>
+                Quellen: 
+                <a href="https://studyflix.de/erdkunde/anthropogener-treibhauseffekt-4016" target="_blank">Studyflix</a>, 
+                <a href="https://energiemarie.de/nachhaltigkeit/co2/treibhauseffekt#:~:text=Dabei%20gibt%20es%20natürliche%20Treibhausgase%20und%20anthropogene%20Treibhausgase%2C,ebenfalls%20fluorierte%20Treibhausgase%2C%20die%20sogar%20gezielt%20produziert%20werden." target="_blank">Energiemarie</a>
+            </p>
+        </div>
+        
+        <div class="card heading-div" id="card3">
+            <h2>3. Entstehung und Wirkung von Treibhausgasen</h2>
+        </div>
+        
+        <div class="card" id="card3.1">
+            <h3>3.1 Entstehung von Treibhausgasen</h3>
+            <div>
+                <p>Treibhausgase können auf verschiedene Arten und Weisen auftreten und entstehen:</p>
+                <div class="gas-group">
+                    <h4><b>Kohlendioxid (CO₂)</b></h4>
+                    <ul>
+                        <li>Atmung von Lebewesen (Menschen, Tiere, Pflanzen)</li>
+                        <li>Verbrennung fossiler Brennstoffe: Kohle, Öl und Gas werden verbrannt</li>
+                        <li>Abholzung: Wälder werden abgeholzt oder verbrannt</li>
+                        <li>Zementproduktion: Kalkstein wird erhitzt</li>
+                    </ul>
+                </div>
+                <div class="gas-group">
+                    <h4><b>Methan (CH₄)</b></h4>
+                    <ul>
+                        <li>Landwirtschaft: Rinder und Reisfelder produzieren Mengen an Methan</li>
+                        <li>Deponien: Organische Abfälle zersetzen sich anaerob</li>
+                        <li>Erdgasförderung: Methan entweicht bei Förderung und Transport</li>
+                    </ul>
+                </div>
+                <div class="gas-group">
+                    <h4><b>Distickstoffmonoxid (N₂O)</b></h4>
+                    <ul>
+                        <li>Düngemittel: Stickstoffhaltige Düngemittel werden umgewandelt</li>
+                        <li>Industrie: Einige chemische Produktionsprozesse</li>
+                        <li>Verbrennung von Biomasse und fossilen Brennstoffen</li>
+                    </ul>
+                </div>
+                <div class="gas-group">
+                    <h4><b>Fluorierte Gase</b></h4>
+                    <ul>
+                        <li>Kältemittel: In Klimaanlagen und Kühlschränken</li>
+                        <li>Industrie: Elektronikproduktion und Schaumherstellung</li>
+                    </ul>
+                </div>
+                <div class="gas-group">
+                    <h4><b>Wasserdampf (H₂O)</b></h4>
+                    <ul>
+                        <li>Verdunstung: Wasser verdunstet aus Ozeanen, Seen und Flüssen</li>
+                        <li>Transpiration: Durch Pflanzen, die ihr Wasser abgeben</li>
+                    </ul>
+                </div>
+                <p>
+                    Zusammenfassend: Die Gase werden von der <b>Erdoberfläche</b> abgegeben und gelangen somit in die <b>Erdatmosphäre</b>. Der natürliche Treibhauseffekt entsteht zu etwa <b>2/3 durch Wasserdampf</b>. Diese Gase tragen zur Erwärmung der Erdatmosphäre bei, indem sie Wärme einfangen.
+                </p>
+            </div>
+        </div>
+        
+        <div class="card" id="card3.2">
+            <h3>3.2 Wirkung der Treibhausgase</h3>
+            <div>
+                <p>
+                    Die <b>Sonnenstrahlen</b> kommen als Form von <b>Licht</b> und <b>Wärme</b> zur Erde. Ein gewisser Teil davon wird absorbiert und erwärmt den Planeten. Die <b>Erdoberfläche</b> gibt einen Teil dieser Wärme als <b>Infrarotstrahlung</b> zurück in die Atmosphäre.
+                </p>
+                <p>
+                    Die <b>Treibhausgase</b> absorbieren einen Teil der Infrarotstrahlung. Dabei wird die Wärme dieser Gase in der Atmosphäre gespeichert. Die aufgenommene Wärme wird dann in alle Richtungen gestrahlt (auch zurück zur Erdoberfläche). Dadurch kann die Wärme nicht vollständig ins Weltall entweichen, wodurch die Erde wärmer wird.
+                </p>
+            </div>
+        </div>
+        
+        <div class="card heading-div" id="card4">
+            <h2>4. Auswirkungen und Folgen des Treibhauseffekts</h2>
+        </div>
+        
+        <div class="card">
+            <h3>Auswirkungen auf Ökosysteme und Lebewesen</h3>
+            <p>
+                Der <b>Treibhauseffekt</b> führt zur Erwärmung der Erde, was erhebliche Folgen für <b>Ökosysteme</b> und <b>Lebewesen</b> (Menschen, Tiere, Pflanzen) hat. Die schnelle Erwärmung erschwert die Anpassung von Pflanzen und Tieren an die neuen Bedingungen, was zum <b>Verlust vieler Arten</b> und zur <b>Verringerung der Biodiversität</b> führt.
+            </p>
+            <p>
+                Seit der <b>Industrialisierung</b> wurden immer mehr künstliche Treibhausgase in die Atmosphäre abgegeben. Die <b>Polarkappen schmelzen</b>, und Gletscher wie der <b>Okjökull</b> in Island verschwinden. Das schmelzende Eis trägt zum <b>Anstieg des Meeresspiegels</b> bei. 
+            </p>
+            <div class="image-text-container">
+                <p>
+                    Die Erwärmung der Ozeane führt dazu, dass weitere Arten aussterben, da sie sich nicht schnell genug an die veränderten Lebensbedingungen anpassen können. Das Wetter verändert sich ebenfalls und zeigt sich in immer <b>extremeren Formen</b>, wie starken <b>Niederschlägen</b>, <b>Schneefällen</b> und langen <b>Hitzewellen</b>. Diese Veränderungen schädigen die <b>Ökosysteme</b> der Erde.
+                </p>
+                <img src="assets/imgs/okjökull.png" alt="Okjökull Gletscher in Island" class="glacier-img">
+            </div>
+            <p>Quellen: 
+                <a href="https://www.landsiedel-seminare.de/weltretter/ressourcen/lexikon/treibhausgas.html#entstehen" target="_blank">Landsiedel Seminare - Treibhausgas</a>, 
+                <a href="https://de.wikipedia.org/wiki/Treibhauseffekt" target="_blank">Wikipedia - Treibhauseffekt</a>, 
+                <a href="https://energiemarie.de/nachhaltigkeit/co2/treibhauseffekt" target="_blank">Energiemarie - Treibhauseffekt</a>
+            </p>
+        </div>
+        
+        <div class="card">
+            <h3>Zusammenfassung der Folgen</h3>
+            <ul>
+                <li><b>Gletscher schmelzen</b></li>
+                <li><b>„Ewiges Eis“</b>, das sich am Nordpol befindet, taut auf</li>
+                <li><b>Anstieg des Meeresspiegels</b></li>
+                <li><b>Erwärmung der Meere</b> und Anstieg der Verdunstung des Wassers</li>
+                <li>Häufigere <b>Überschwemmungen</b> könnten entstehen</li>
+                <li>Häufigeres Auftreten von <b>Hitze-</b> und <b>Dürreperioden</b></li>
+            </ul>
+            <p>
+                Daraus folgt: Weitere <b>Unmengen an Treibhausgasen</b> werden freigesetzt, wodurch sich die Folgen weiter verschlimmern. Es entsteht ein sogenannter <b>Teufelskreis</b>. Der <b>ansteigende Meeresspiegel</b> und die <b>Wetterextremen</b> gefährden das Leben aller Lebewesen.
+            </p>
+            <p>Quelle: 
+                <a href="https://science.nasa.gov/climate-change/" target="_blank">NASA - Climate Change</a>
+            </p>
+        </div>
+        
+        <div class="card">
+            <h3>Analyse der Karikatur</h3>
+            <div class="image-text-container">
+                <div>
+                <p>
+                    Diese Karikatur zeigt eine Überschwemmung, bei der ein Haus und viele Fahrzeuge zu einem großen Teil im Wasser versinken. In einem Steakhaus sitzen zwei Personen, die den <b>Klimawandel</b> nicht wahrhaben wollen, was man an ihren Aussagen „<i>Klimawandel?!! Alles Lüge!</i>“ und „<i>Logo, das ist nur ein starker Sommerregen.</i>“ erkennen kann. 
+                </p>
+                <p>
+                    Hierbei könnte die Aussage der zweiten Person auch ironisch gemeint sein. Der Karikaturist will mit dieser übertriebenen Abbildung – da es sich hierbei nicht nur um einen starken Sommerregen handelt – darauf aufmerksam machen, dass viele Leute den <b>Klimawandel</b> als unbedeutend abtun. 
+                </p>
+                <p>
+                    Der Karikaturist weist damit auf bestehende Probleme wie <b>Überflutungen in versiegelten Großstädten</b> hin und auf das Ausmaß der Zerstörung, welches es durch Maßnahmen zur Vermeidung zu verhindern gilt. Das kleine <b>Stoppschild</b> in der Ecke unten rechts unterstreicht diese Aussage, bei der er zum Stoppen des Klimawandels aufruft.
+                </p>
+                </div>
+                <img src="assets/imgs/karikatur.png" alt="Karikatur zum Klimawandel" class="karikatur-img">
+            </div>
+        </div>
+        
+        
+    
+        <div class="card heading-div" id="card5">
+            <h2>5. Maßnahmen zur Vermeidung</h2>
+        </div>
+        
+        <div class="card content-div">
+            <h3>Klimaanpassungsstrategie 2024 in Deutschland</h3>
+            <p>
+                Die Klimaanpassungsstrategie 2024 legt den Fokus auf dringende Aufgaben und Probleme, die durch den Klimawandel entstehen. Es wurden <b>33 Ziele</b> mit <b>45 Unterzielen</b> definiert, die bis <b>2030</b> bzw. <b>2050</b> erreicht werden sollen. Die Strategie wird alle vier Jahre angepasst und optimiert.
+            </p>
+            <ul>
+                <li>Entgegenwirken der Hitze durch mehr grüne Grundflächen</li>
+                <li>Entgegenwirken von Hochwasser durch Anpassung von Flussläufen</li>
+                <li>Ausbau eines Warnsystems für die Bevölkerung vor Umweltkatastrophen</li>
+            </ul>
+            <p>
+                Quelle: <a href="https://www.bundesregierung.de/breg-de/aktuelles/klimaanpassungsstrategie-2024-2324828" target="_blank">Klimaanpassungsstrategie 2024 - Bundesregierung</a>
+            </p>
+        </div>
+        
+        <div class="card content-div" id="card5.1">
+            <h3>5.1 Erneuerbare Energien</h3>
+            <p>
+                Der Umbau der Energieversorgung von fossilen zu erneuerbaren Energiequellen verhindert oder verringert den Ausstoß von CO<sub>2</sub> und anderen Treibhausgasen. Diese Maßnahme bekämpft den Treibhauseffekt an seinem Ursprung – bei der Entstehung der Treibhausgase.
+            </p>
+            <p>
+                <b>Reduktion weiterer Treibhausgase:</b> Durch die Anpassung von Herstellungsverfahren und die effizientere Nutzung fossiler Energieträger können überflüssige Emissionen verhindert werden. Zudem wird Energie durch modernisierte Prozesse sparsamer genutzt.
+            </p>
+        </div>
+        
+        <div class="card content-div" id="card5.2">
+            <h3>5.2 Pariser Klimaabkommen</h3>
+            <p>
+                Das am <b>12. Dezember 2015</b> auf der Weltklimakonferenz beschlossene <b>Pariser Klimaabkommen</b> soll die Weltwirtschaft klimafreundlich umgestalten und den Klimawandel weltweit eindämmen.
+            </p>
+            <p>Die Hauptziele des Abkommens sind:</p>
+            <ul>
+                <li>Die Beschränkung des Anstiegs der weltweiten Durchschnittstemperatur (der Anstieg soll <b>1,5 Grad Celsius</b> nicht überschreiten)</li>
+                <li>Die Senkung der Treibhausemissionen und deren Anpassung an den Klimawandel</li>
+                <li>Die Lenkung von Finanzmitteln im Einklang mit den Klimaschutzzielen</li>
+            </ul>
+            <p>
+                Durch die Verpflichtung vieler Staaten weltweit stellt das Abkommen einen wichtigen Schritt im Kampf gegen den Klimawandel dar.
+            </p>
+            <p>
+                Quelle: <a href="https://www.bmz.de/de/service/lexikon/klimaabkommen-von-paris-14602" target="_blank">Pariser Klimaabkommen - BMZ</a>
+            </p>
+        </div>
+        
+
+    </div>
+    <div class="names-div">Timon Scheuer, Lucas Hoßfeld, Jannis Raffler, Julian Kern</div>
+    <script>
+
+    function scrollToSection(id) {
+            const element = document.getElementById(id);
+            window.scrollTo({
+                top: element.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+
+        function handleOrientationChange() {
+            const navbar = document.querySelector('.navbar');
+            const navbarToggle = document.querySelector('.navbar-toggle');
+            if (window.matchMedia("(orientation: portrait)").matches) {
+                navbar.style.display = 'none';
+                navbarToggle.style.display = 'block';
+            } else {
+                navbar.style.display = 'block';
+                navbarToggle.style.display = 'none';
+            }
+        }
+
+        document.querySelector('.navbar-toggle').addEventListener('click', function() {
+            const navbar = document.querySelector('.navbar');
+            if (navbar.style.display === 'none' || navbar.style.display === '') {
+                navbar.style.display = 'block';
+            } else {
+                navbar.style.display = 'none';
+            }
+        });
+
+        window.addEventListener('resize', handleOrientationChange);
+        window.addEventListener('orientationchange', handleOrientationChange);
+
+        // Initial call to set the correct state
+        handleOrientationChange();
+    </script>
+</body>
+</html>

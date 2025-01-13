@@ -1,0 +1,150 @@
+
+.main {
+    margin-left: 30vw;
+    width: 65vw;    
+    margin-top: 10vh;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 10vh;
+    overflow: hidden;
+}
+
+.main > div {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    padding: 20px;
+    box-shadow: 0 2px 8px var(--shadow-color);
+    scroll-snap-align: start; 
+}
+
+.title-div {
+    background: url('../assets/imgs/eisberg.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-div h1 {
+    text-shadow: 4px 8px 9px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 5rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.definition-container {
+    padding: 20px 20px 0 20px;
+    border-left: 5px solid #0d6efd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+}
+
+.definition-img {
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.heading-div {
+    margin-top: 120px;
+    font-size: 2rem;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.gas-group {
+    margin-bottom: 20px;
+}
+
+.gas-group h4 {
+    font-size: 1.5rem;
+    color: var(--highlight-color);
+    margin-bottom: 10px;
+}
+
+.gas-group ul {
+    margin-left: 20px;
+    margin-top: 0;
+    padding-left: 15px;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--highlight-color);
+    margin-bottom: 10px;
+}
+.image-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    display: block;
+}
+
+.glacier-img, .karikatur-img {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,150 @@
+.navbar {
+    font-size: 1.1rem;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 20vw;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px var(--shadow-color);
+    padding: 30px;
+    overflow-y: auto; /* Vertikal scrollen */
+    scrollbar-color: rgba(144, 164, 174, 0.6) rgba(255, 255, 255, 0.164);
+    scrollbar-width: thin;
+}
+
+.navbar::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar::-webkit-scrollbar-thumb {
+    background-color: rgba(144, 164, 174, 0.6);
+    border-radius: 5px;
+}
+
+.navbar h1 {
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar tr {
+    width: 100%;
+    margin-bottom: 0.75vh;
+    display: flex;
+}
+
+.navbar td{
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: block;
+}
+
+.navbar .sub-text:hover, .navbar .text:hover{
+    transform: scale(1.05);
+    color: #303030;
+}
+
+.navbar .sub-text, .navbar .text {
+    width: 80%;
+}
+
+.navbar .text {
+    font-weight: bold;
+}
+
+.navbar table {
+    font-size: 2vh;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    white-space: normal;
+    width: 100%;
+    margin-bottom: 0.75vh;
+}
+
+.navbar .section {
+    margin-bottom: 0px;
+}
+
+
+.navbar .number, .navbar .sub-number {
+    font-weight: bold;
+    text-align: left;
+    width: 20%;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        background-color: white;
+        z-index: 1000;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-toggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: var(--primary-color);
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 8px var(--shadow-color);
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    .navbar {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 1000;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-toggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: var(--primary-color);
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 8px var(--shadow-color);
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .main {
+        width: 90vw !important;
+        margin: 5vw !important;
+        padding: 0;
+    }
+
+    .main .title-div {
+        margin-top: 5vh;
+        height: 50vh;
+    }
+}
+
+@media (orientation: landscape) {
+    .navbar-toggle {
+        display: none;
+    }
+}
